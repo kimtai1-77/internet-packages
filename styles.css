@@ -115,6 +115,7 @@ button {
     border: .15rem solid var(--color-d3);
     border-radius: .8rem;
     max-width: 12rem;
+    color: var(--color-d5);
 }
 
 .image-box {
