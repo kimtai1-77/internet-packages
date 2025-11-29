@@ -36,8 +36,8 @@ h2 {
     font-weight: 600;
     color: var(--color-d4);
     margin: 0;
-    border-top: .8rem solid #E3C281;
-    border-bottom: .8rem solid var(--color-l1);
+    border-top: .4rem dotted #E3C281;
+    border-bottom: .6rem dotted var(--color-l1);
     align-self: center;
 }
 
@@ -113,9 +113,11 @@ button {
     padding: 1.2rem 2.4rem;
     margin-top: clamp(0.8rem, calc(1.5vh), 2.4rem);
     border: .15rem solid var(--color-d3);
+    border: none;
     border-radius: .8rem;
     max-width: 12rem;
-    color: var(--color-d5);
+    color:#f5f5dc;
+    background-color:#61131C;
 }
 
 .image-box {
