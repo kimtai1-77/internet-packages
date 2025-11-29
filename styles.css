@@ -16,6 +16,10 @@
 body {
   font-family: 'Roboto', sans-serif;
   min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
@@ -83,6 +87,7 @@ p {
     align-items: center;
     gap: clamp(2.4rem, calc(2.4rem + 6vh), 3.2rem);
     flex-wrap: wrap;
+    max-width: 120rem;
 }
 
 .card, .message-box {
